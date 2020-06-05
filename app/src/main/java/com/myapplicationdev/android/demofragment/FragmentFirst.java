@@ -24,7 +24,7 @@ public class FragmentFirst extends Fragment {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String data = tv1.getText().toString() + "\nNew Data";
+                String data = tv1.getText().toString() + "\n" + "New Data";
                 tv1.setText(data);
             }
         });
